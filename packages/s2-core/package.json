@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@antv/s2",
+  "name": "@bpm/s2",
   "version": "1.44.0",
   "main": "lib/index.js",
   "unpkg": "dist/index.min.js",
