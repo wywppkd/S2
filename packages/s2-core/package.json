@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@bpm/s2",
-  "version": "1.44.0",
+  "version": "1.45.0",
   "main": "lib/index.js",
   "unpkg": "dist/index.min.js",
   "module": "esm/index.js",
@@ -46,6 +46,7 @@
     "build:umd": "cross-env FORMAT=umd rollup -c rollup.config.js",
     "build:analysis": "cross-env FORMAT=esm ANALYSIS=true rollup -c rollup.config.js",
     "build:dts": "run-s dts:*",
+    "publish": "npm publish",
     "dts:build": "tsc -p tsconfig.declaration.json",
     "dts:extract": "cross-env LIB=s2-core node ../../scripts/dts.js",
     "bundle:size": "bundlesize",
