@@ -1,3 +1,41 @@
+# [@antv/s2-v1.46.0](https://github.com/antvis/S2/compare/@antv/s2-v1.45.1...@antv/s2-v1.46.0) (2023-05-15)
+
+
+### Bug Fixes
+
+* 修复 meta name 同名时，hoverFocus 出错的问题 ([#2187](https://github.com/antvis/S2/issues/2187)) ([a2d7a81](https://github.com/antvis/S2/commit/a2d7a8162e4a177bf593af463e4bb7a4b0e96fc7))
+* 修复总计小计被意外 format 的问题 ([#2209](https://github.com/antvis/S2/issues/2209)) ([6e98291](https://github.com/antvis/S2/commit/6e982917d15ad66d6caecac6da30050527811875))
+* 复制时移除空控制符 ([#2204](https://github.com/antvis/S2/issues/2204)) ([ce9dcab](https://github.com/antvis/S2/commit/ce9dcab8ffe00cec60fe412ce7a71aa00541dc13))
+* 系统拦截快捷键后多选交互异常 ([#2191](https://github.com/antvis/S2/issues/2191)) ([6a8b85a](https://github.com/antvis/S2/commit/6a8b85ab59ebf2ce9f03e4a3aaa841c251654eb3))
+
+
+### Features
+
+* 行列头和数值为空时，不渲染表格框架 ([#2207](https://github.com/antvis/S2/issues/2207)) ([1a404e1](https://github.com/antvis/S2/commit/1a404e1ec256298801222dacd318a57ba890dbcd))
+
+# [@antv/s2-v1.45.1](https://github.com/antvis/S2/compare/@antv/s2-v1.45.0...@antv/s2-v1.45.1) (2023-04-28)
+
+
+### Bug Fixes
+
+* **tooltip:** 修复特定配置下点击 tooltip 内容后 tooltip 关闭 close [#2170](https://github.com/antvis/S2/issues/2170) ([#2172](https://github.com/antvis/S2/issues/2172)) ([6219e57](https://github.com/antvis/S2/commit/6219e579364cfb7ac3a8b3db4ae01c5672d7f2d4))
+* 行头过宽且不冻结时滚动条渲染错误 ([#2173](https://github.com/antvis/S2/issues/2173)) ([ab79ea0](https://github.com/antvis/S2/commit/ab79ea0664046bc6479a717d7b3b0ee7efe05b31))
+
+# [@antv/s2-v1.45.0](https://github.com/antvis/S2/compare/@antv/s2-v1.44.0...@antv/s2-v1.45.0) (2023-04-21)
+
+
+### Bug Fixes
+
+* 修复 cornerText 配置对树状模式的适配 ([#2167](https://github.com/antvis/S2/issues/2167)) ([e9efcea](https://github.com/antvis/S2/commit/e9efcea944f5d0793d4a1250362e6b6f6b492c52))
+* 修复总计小计 linkField 样式问题 ([#2169](https://github.com/antvis/S2/issues/2169)) ([4450278](https://github.com/antvis/S2/commit/4450278d82888c117e5bd9d31874b88ecdb33d99))
+* 多指标行头总计节点宽度计算错误 ([#2165](https://github.com/antvis/S2/issues/2165)) ([08ef330](https://github.com/antvis/S2/commit/08ef330a02a1fbf11f49090f4fd7f5d2b0cc1093))
+* 微应用环境识别mouseEvent失效 ([bddbe34](https://github.com/antvis/S2/commit/bddbe34104355ac0087bc9f72377889a8f444d7a)), closes [#2162](https://github.com/antvis/S2/issues/2162)
+
+
+### Features
+
+* icon支持更新name与fill ([#2138](https://github.com/antvis/S2/issues/2138)) ([d000aea](https://github.com/antvis/S2/commit/d000aeac332676cfa15d9986ec7f4be948c565d0))
+
 # [@antv/s2-v1.44.0](https://github.com/antvis/S2/compare/@antv/s2-v1.43.0...@antv/s2-v1.44.0) (2023-03-24)
 
 
