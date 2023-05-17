@@ -4,6 +4,7 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
+      "registry": "http://172.150.100.4:4873/",
       "ignoreChanges": [
         "*.md",
         "**/_tests_/**"
